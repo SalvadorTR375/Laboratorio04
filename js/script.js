@@ -25,8 +25,9 @@ function TodoMark(){
     }
 }
 
+// Eliminar todos los elementos de la lista y dejarla vacia
 function TodoDelete(){
-    console.log("aaaa")
+    $("#todoList").html("")
 }
 
 $("#ButtonPost").click(TodoPost)
